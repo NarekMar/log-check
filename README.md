@@ -1,4 +1,4 @@
-# log-check
+# Log-check
 
 A small Python script that reads a log file and counts lines
 with `ERROR` and `WARNING` levels.
