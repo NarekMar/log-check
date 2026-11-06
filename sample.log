@@ -1,0 +1,5 @@
+2026-11-06 10:00:01 INFO service started
+2026-11-06 10:00:05 ERROR cannot connect to database
+2026-11-06 10:01:12 INFO request handled
+2026-11-06 10:02:30 ERROR timeout while reading
+2026-11-06 10:03:00 WARNING disk usage high
