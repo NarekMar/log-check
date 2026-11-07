@@ -1,4 +1,4 @@
-![CI](https://github.com/твой_ник/log-check/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/NarekMar/log-check/actions/workflows/ci.yml/badge.svg)
 
 # Log-check
 
