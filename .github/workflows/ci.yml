@@ -1,0 +1,15 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run script on sample log
+        run: python3 log_check.py sample.log
+      - name: Build Docker image
+        run: docker build -t log-check .

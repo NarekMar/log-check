@@ -1,3 +1,5 @@
+![CI](https://github.com/твой_ник/log-check/actions/workflows/ci.yml/badge.svg)
+
 # Log-check
 
 A small Python script that reads a log file and counts lines
