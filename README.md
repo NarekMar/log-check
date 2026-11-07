@@ -31,7 +31,33 @@ WARNING lines: 1
 
 - `log_check.py` - the script
 - `sample.log` - example log file for testing
+- `Dockerfile` - builds a container image with the script
 
 ## Requirements
 
 Python 3, no external libraries.
+
+
+
+## Docker
+
+Build the image:
+
+```bash
+docker build -t log-check .
+```
+
+Run with the bundled `sample.log`:
+
+```bash
+docker run --rm log-check
+```
+
+Run with your own log file from the current folder:
+
+```bash
+docker run --rm -v $(pwd):/data log-check /data/yourfile.log
+```
+
+The `-v` flag mounts the current folder into the container as `/data`,
+so the script reads the real file instead of the copy baked into the image.
